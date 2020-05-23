@@ -38,31 +38,31 @@ float calculoIRPF (float salBruto, float INSS, float qtddepen){
 int main (void){
   float salB, salL, FGTS,INSS,IRPF, dependentes, descontos, inssA, irffA, faixaIRRF;
   char s, nome[10], sobrenome[10], cargo[10];
-
+system("cls");
   //INFORMAÇÕES ANTES DE COMEÇAR A COLETA DE DADOS. Fiz essa parte para que você saiba quais dados usei noe meus cálculos.
     printf("\n\n*INFORMACOES IMPORTANTES");
     printf("\n__________________________\n\n");
-    printf("\n1. O salário mínimo é de R$ 1.045 desde 01/02/2020;");
-    printf("\n\n2. FGTS = 8%% do salário bruto e não é descontado do salário;");
-    printf("\n\n3. INSS = com a reforma da previdência, a partir de Março/2020 a aliquota do INSS varia progressivamente de acordo com a faixa salarial:");
+    printf("\n1. O salario minimo eh de R$ 1.045 desde 01/02/2020;");
+    printf("\n\n2. FGTS = 8%% do salario bruto e nao eh descontado do salario;");
+    printf("\n\n3. INSS = com a reforma da previdencia, a partir de Marco/2020 a aliquota do INSS varia progressivamente de acordo com a faixa salarial:");
     printf("\n\n          FAIXA SALARIAL         FAIXA  DE ALIQUOTA ");
-    printf("\naté R$ 1.045 (salário mínimo)	 7,5%%");
+    printf("\nate R$ 1.045 (salario minimo)    7,5%%");
     printf("\nentre R$ 1.045,01 e R$ 2.089,60  9%%      ");
     printf("\nentre R$ 2.089,61 e R$ 3.134,40	 12%%     ");
     printf("\nentre R$ 3.134,41 e R$ 6.101,06	 14%%     ");
     printf("\nAcima do teto  de   R$ 6.101,06	 7,13%% taxa fixa de R$ 713,09");
-    printf("\n\n4. IRPF = salário bruto - alíquota do INSS - valor de dedução por dependente caso houver (dedução de R$ 189,59 mensais, por dependente) * alíquota do IR - a parcela a deduzir do IR. Veja a tabela do IRRF a seguir:");
+    printf("\n\n4. IRPF = salario bruto - aliquota do INSS - valor de deducao por dependente caso houver (deducao de R$ 189,59 mensais, por dependente) * aliquota do IR - a parcela a deduzir do IR. Veja a tabela do IRRF a seguir:");
     printf("\n\n   FAIXA  VALOR EM REAL              ALIQUOTA  A DEDUZIR");
-    printf("\n     até  R$1.903,98                  isenção");
-    printf("\n1ª faixa: R$ 1.903,99 a R$ 2.826,65   7,5%%     R$ 142,80");
-    printf("\n2ª faixa: R$ 2.826,66 a R$ 3.751,05   15%%      R$ 354,80");
-    printf("\n3ª faixa: R$ 3.751,06 a R$ 4.664,68   22,5%%    R$ 636,13");
-    printf("\n4ª faixa: a partir de R$ 4.664,69     27,5%%    R$ 869,36");
-    printf("\n\nPressione ENTER para começar o preenchimento");
+    printf("\n     ate  R$1.903,98                  isencao");
+    printf("\n1a faixa: R$ 1.903,99 a R$ 2.826,65   7,5%%     R$ 142,80");
+    printf("\n2a faixa: R$ 2.826,66 a R$ 3.751,05   15%%      R$ 354,80");
+    printf("\n3a faixa: R$ 3.751,06 a R$ 4.664,68   22,5%%    R$ 636,13");
+    printf("\n4a faixa: a partir de R$ 4.664,69     27,5%%    R$ 869,36");
+    printf("\n\nPressione ENTER para comecar o preenchimento");
     scanf("%c", &s);
 
   //COLETA DE DADOS COMEÇA AQUI
-system("clear");
+system("cls");
     printf("\n------------------------------------------------------------\n");
     printf("Preenchendo folha de pagamento de funcionario do RESTAURANTE\n");
     printf("------------------------------------------------------------\n");
@@ -86,7 +86,7 @@ system("clear");
     salL = salB - descontos;
      faixaIRRF = salB-INSS-(dependentes*189.59);
   //TELA FINAL COM A FOLHA DE PAGAMENTO PRONTA E PREENCHIDA
-system("clear"); //limpeza de tela para resultado final
+system("cls"); //limpeza de tela para resultado final
   printf("\n____________________________________________________");
   printf("\n\n             Recibo de pagamento de salario");
   printf("\n____________________________________________________");

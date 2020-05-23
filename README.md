@@ -1,2 +1,19 @@
-# Demonstrativo-de-Pagamento
-Holerite criado em C no 1ºPeríodo de SI.
+# contracheque-em-C
+Holerite/contracheque/demonstrativo-de-pagamento criado em C no 1ºPeríodo de SI.
+
+
+
+INTRODUÇÃO
+
+O presente trabalho tem como objetivo fazer um Recibo de Pagamento de Salário (Holerite) em algoritmo e na linguagem C. 
+O objetivo do presente projeto é o de usar funções para fazer os cálculos das variáveis mais básicas presentes num demonstrativo de pagamento comum. Os cálculos de INSS, IRRF, e FGTS serão feitos por meios de funções. Será demonstrado ao final do trabalho, o salário líquido, as referências e alíquotas dos descontos, o FGTS do Mês, qual foi a base usada para calcular o IRRF e em que faixa o imposto se encontra na nova tabela de referência criada pelo governo brasileiro em Março de 2020. 
+Por motivos de informação, antes da tela de entrada de dados do programa em C, haverá uma tela com informações sobre os dados utilizados, tendo em vista que outros alunos podem ter usado outros dados, e que portanto se comparados podem parecer incongruentes por alguém ter usado alguma referência desatualizada.
+Não obstante, o presente trabalho não se importou com a estética dos códigos em C. Portanto, os códigos podem parecer desorganizados, porém não é o caso. Os códigos estão organizados, mas “sujos” por causa da falta de estética. Por outro lado, a interface “gráfica” no terminal (depois de compilado) está esteticamente mais bonito. Infelizmente, quando copiado para este arquivo, o código ficou desconfigurado. Isso significa que se o código for colocado num compilador para checagem, ele não ficará com a mesma estética de quando foi criado. Você pode comparar a estética de quando foi criado observando o print das telas presente neste trabalho. 
+Por fim, o trabalho terá três telas finais em C: Uma tela de informações gerais sobre os dados utilizados para os cálculos (suas respectivas referências encontram-se na bibliografia deste trabalho); uma segunda tela com a entrada de dados (nome e sobrenome do funcionário, cargo, salário bruto e quantidade de dependentes); e por fim, uma terceira tela com a saída de dados, ou seja, a folha de pagamento completa e preenchida com o resultado de todos os cálculos.
+
+CONCLUSÃO
+
+Através deste trabalho pude aprender e desenvolver determinadas habilidades que considero muito importantes para meu crescimento profissional.
+Por exemplo, desde meu primeiro contato com funções, eu tive problemas para entender seu funcionamento e como aplicar corretamente suas propriedades num código. A parte que mais me tomou tempo neste trabalho foi a criação e manipulação da função que calcula o imposto de renda retido na fonte (IRRF). Acredito que deva ter ficado umas duas horas tentando e não conseguia resolver o problema. Fui dormir, e quando tentei novamente no dia seguinte eu percebi algo muito interessante: eu sabia usar funções, o problema não era esse.
+Foi então que após um breve insight descobri que o maior desafio deste trabalho não foi utilizar as propriedades da linguagem C para escrever códigos, e sim o de compreender a lógica algorítmica por trás do que eu estava escrevendo! Após uma consulta no livro Lógica de programação algorítmica do organizador Sérgio Guedes e mais algumas tentativas, consegui solucionar o problema no meu código! Depois de ter testado todas as possibilidades, consegui desenvolver um código razoável que cumpre o que promete.
+Para finalizar, percebi que preciso melhorar em determinados pontos na hora de programar. Em primeiro lugar, eu preciso estudar mais a fundo a própria lógica matemática dos algoritmos em si. Quanto mais a fundo eu souber, mais fácil conseguirei superar esses obstáculos matemáticos. Em segundo lugar, preciso aprender a fazer códigos melhores e mais limpos. O código para este demonstrativo de pagamento de salário teve 115 linhas de código. Provavelmente há uma maneira de fazer um código mais limpo, menor, em menos tempo e mais bonito para o mesmo fim.
